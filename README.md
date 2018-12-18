@@ -1,1 +1,2 @@
-# mongoScraper2
+# mongoScraper
+App to scrape the interweb for articles

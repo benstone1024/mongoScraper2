@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+            body { background-color: #F2F6D0 }
+            #wrapper {
+              width: 960px;
+              margin-left: auto;
+              margin-right: auto;
+              padding-top: 5%;
+            }
+            #articles {
+              display: inline-block;
+              overflow: auto;
+              width: 60%;
+              height: 700px;
+            }
+            #notes {
+              float: right;
+              width: 30%;
+            }
+            textarea, input {
+              display: block;
+              width: 100%;
+              background-color: rgb(198, 248, 252);
+            }
+            input {
+              height: 36px;
+              font-size: 24px;
+            }
+            textarea {
+              height: 200px;
+              font-size: 18px;
+            }
+          </style>
+</head>
+<body>
+    <div class="main-page">
+       
+        <div class="container">
+                <div class="jumbotron">
+                        <h1 class="display-4">Mongo Scraper</h1>
+                        <p class="lead"> This is a app to scrape the web for articles</p>
+                        <hr class="my-4">
+
+
+                        
+                        <a class="btn btn-primary btn-lg" href="#" role="button">begin your web scraping.</a>
+                      </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <script type= "text/x-handlebars-template">
+    {{# new articles}}
+    <h2>{{Article Name}}</h2>
+    {{/new articles}}
+    </script>
+
+
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+</body>
+</html>
